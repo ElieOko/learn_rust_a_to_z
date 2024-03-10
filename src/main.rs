@@ -1,3 +1,4 @@
 fn main() {
-    println!("Hello, world!");
+    let data_str: String = String::from("Learn rust a to z");
+    println!("*{}*", data_str);
 }
