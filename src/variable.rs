@@ -55,4 +55,11 @@ fn main() {
      */
     let mut _is_active: bool = true;
     _is_active = false;
+    /*
+     ***Masquage(shadow) variable
+     */
+    let mut _price = 250;
+    {
+        let _price = _price + 2; //_price output 252
+    } //_price output 250
 }
