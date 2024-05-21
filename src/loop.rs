@@ -37,7 +37,7 @@ fn main(){
     for (index,element) in tab.iter().enumerate(){
       println!("a[{}]=>{}",index, element)  
     }
-    // detructuration directe avec tuples
+    // detructuration directe avec tuple
     let _tab_collection = vec![(1,"ElieOko"),(2,"MusimbiTerence"),(3,"EthyMuzola")];
     for (id,name) in _tab_collection{
         println!("id:{}\nname:{}",id,name);
