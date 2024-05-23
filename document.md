@@ -1,1 +1,1 @@
-##
+##https://www.ambient-it.net/paradigmes-rust/
