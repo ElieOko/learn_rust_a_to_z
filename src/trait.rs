@@ -15,7 +15,7 @@ trait Affichable2{
 
 impl Affichable2 for i32{}
 
-//trait associés
+//trait associés comporte des methodes qui sont appelés depuis le type
 trait Utilitaire{
     fn ajouter(a:i32, b:i32) -> i32;
 }
